@@ -1,0 +1,4 @@
+# Enhance-Image-Quality
+A multispectral fusion model is used to improve image quality and utilize it in robot vision.
+
+In this article, a method is proposed for improving images that is applicable regardless of the number of image channels. The main idea of this article is the combination of model-based and fusion-based enhancement methods, which not only enhance image quality but also preserve its details. This method improves both color and grayscale images without the need for prior information. A multispectral fusion method is employed to separate the main layers and details for illumination and Laplacian modules. The environment map and transmission estimation play a crucial role in accurately reconstructing the illumination in the illumination module. Nonlinear automatic mapping functions are used to adjust the details in the remaining layers.
